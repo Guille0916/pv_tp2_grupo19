@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.opciones {
+    margin-top: 15px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+input {
+    margin-right: 6px;
+}
+
+.resultado {
+    width: 280px;
+    min-height: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
