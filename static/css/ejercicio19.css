@@ -1,0 +1,17 @@
+.parrafo {
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.boton {
+    background-color: #2563eb;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px 16px;
+}
+
+

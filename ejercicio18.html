@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 18</title>
+</head>
+<body>
+    <script>
+        const calcularMayor = (numero1, numero2) => {
+            if (numero1 > numero2) {
+                return numero1;
+            } else if (numero2 > numero1) {
+                return numero2;
+            }
+
+            return "los numeros son iguales";
+        };
+
+        document.write(`El numero mayor es: ${calcularMayor(43, 46)}`);
+    </script>
+</body>
+</html>
