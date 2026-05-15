@@ -16,7 +16,10 @@
             return resultado;
         };
 
-        document.write(`La suma del rango es: ${sumarRango(2, 8)}`);
+        let inicio = parseInt(prompt("Ingrese el inicio del rango:"));
+        let fin = parseInt(prompt("Ingrese el final del rango:"));
+
+        document.write(`La suma del rango es: ${sumarRango(inicio, fin)}`);
     </script>
 </body>
 </html>
