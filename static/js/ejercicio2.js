@@ -4,6 +4,6 @@ while(contador<10){
     i++;
     if(i%2 != 0 ){
         contador++;
-        console.log(i);
+        console.log(`Numero impar: ${i}`);
     }
 }

@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio14</title>
+    <title>Ejercicio 14</title>
 </head>
 <body>
-    <script src="static/js/ejercicio14.js"></script>
+    <script>
+        let cantidad = parseInt(prompt(`Ingrese cantidad de numeros a agregar: `));
+        let array = [];
+        let faltantes = cantidad;
+
+        for (let i = 0; i < cantidad; i++) {
+            array.push(parseInt(prompt(`Ingrese numero:\nCantidad faltante: ${faltantes}`)));
+            faltantes--;
+        }
+
+        let duplicados = [];
+        const duplicar = (array) => {
+            array.forEach(numero => {
+                duplicados.push(numero * 2);
+            });
+        };
+
+        duplicar(array);
+
+        duplicados.forEach(numero => {
+            document.write(`${numero}<br>`);
+        });
+    </script>
 </body>
 </html>

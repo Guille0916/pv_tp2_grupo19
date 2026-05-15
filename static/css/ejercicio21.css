@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+select {
+    margin-top: 5px;
+    padding: 6px;
+    width: 220px;
+}
